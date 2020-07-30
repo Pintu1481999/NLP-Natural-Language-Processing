@@ -13,8 +13,8 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 
-stemmer = PorterStemmer()   ## Stemmer object
-lemmatizer = WordNetLemmatizer()
+stemmer = PorterStemmer()   ## Stemmer object (not going to use this)
+lemmatizer = WordNetLemmatizer() ## Lemmatizer object  (this is going to be used)
 corpus = []
 
 for i in range(len(messages)):
@@ -91,4 +91,4 @@ and  columns 0 and 1 are predicted output.
 
 so total 939 + 185 = 1124 are correctly predicted 
 and 8 + 10 = 18 are not correctly predicted.
-'''-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------'''
