@@ -43,4 +43,4 @@ from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer() 
 bow = cv.fit_transform(corpus).toarray()
 
-## It will convert the whole corpus into vector format. and will assign the frequecy of words present in corpus (i.e. 0, 1, 2, etc...)
+## It will convert the whole corpus into vector format. and will assign the frequencies of words present in corpus (i.e. 0, 1, 2, etc...)
