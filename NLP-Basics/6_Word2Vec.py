@@ -32,7 +32,7 @@ paragraph = """My biological mother found out later that my mother had never gra
             when we were designing the first Macintosh computer, it all came back to me. And we designed it all 
             into the Mac. It was the first computer with beautiful typography."""
             
-## Data Clearning and Preprocessing
+## Data Cleaning and Preprocessing
 import re
 
 text = re.sub(r'\[[0-9]*\]', ' ', paragraph)  ## removing numbers, punctuations
